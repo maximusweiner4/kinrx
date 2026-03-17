@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service - KinRx</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --teal: #0d9488; --teal-dark: #0f766e; --teal-light: #f0fdfa; --teal-mid: #ccfbf1;
+      --text: #1e293b; --muted: #64748b; --border: #e2e8f0; --bg: #f8fafc; --white: #ffffff;
+      --warn-bg: #fffbeb; --warn-border: #f59e0b; --warn-text: #78350f;
+      --info-bg: #f0f9ff; --info-border: #38bdf8; --info-text: #0c4a6e;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 16px; line-height: 1.75; color: var(--text); background: var(--bg); }
+    header { background: var(--teal); color: var(--white); padding: 3rem 1.5rem 2.5rem; text-align: center; }
+    .header-logo { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--white); margin-bottom: 0.75rem; }
+    .logo-pill { background: rgba(255,255,255,0.22); border-radius: 10px; padding: 0.3rem 0.7rem; font-size: 1.4rem; font-weight: 800; letter-spacing: -0.03em; }
+    header h1 { font-size: clamp(1.4rem, 3.5vw, 2rem); font-weight: 600; opacity: 0.95; margin-bottom: 0.5rem; }
+    .badge-updated { display: inline-block; background: rgba(255,255,255,0.2); border-radius: 99px; padding: 0.2rem 0.9rem; font-size: 0.8rem; letter-spacing: 0.03em; opacity: 0.88; }
+    .container { max-width: 800px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+    .toc { background: var(--white); border: 1px solid var(--border); border-left: 4px solid var(--teal); border-radius: 8px; padding: 1.4rem 1.75rem; margin-bottom: 3rem; }
+    .toc-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em; color: var(--muted); margin-bottom: 0.8rem; }
+    .toc ol { padding-left: 1.2rem; } .toc li { margin-bottom: 0.3rem; }
+    .toc a { color: var(--teal-dark); text-decoration: none; font-size: 0.93rem; } .toc a:hover { text-decoration: underline; }
+    section { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 1.75rem 2rem; margin-bottom: 1.25rem; }
+    section h2 { font-size: 1.15rem; font-weight: 700; color: var(--teal-dark); padding-bottom: 0.6rem; border-bottom: 2px solid var(--teal-mid); margin-bottom: 1rem; }
+    section h3 { font-size: 0.97rem; font-weight: 600; color: var(--text); margin: 1.25rem 0 0.5rem; }
+    p { margin-bottom: 0.9rem; } p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.4rem; margin-bottom: 0.9rem; } li { margin-bottom: 0.4rem; }
+    strong { font-weight: 600; } a { color: var(--teal-dark); } a:hover { color: var(--teal); }
+    .callout { border-radius: 7px; padding: 0.9rem 1.1rem; margin: 1.1rem 0; font-size: 0.93rem; }
+    .callout-teal { background: var(--teal-light); border-left: 4px solid var(--teal); color: #134e4a; }
+    .callout-warn { background: var(--warn-bg); border-left: 4px solid var(--warn-border); color: var(--warn-text); }
+    .callout-info { background: var(--info-bg); border-left: 4px solid var(--info-border); color: var(--info-text); }
+    .callout-label { display: block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.35rem; opacity: 0.8; }
+    footer { background: var(--white); border-top: 1px solid var(--border); text-align: center; padding: 1.5rem 1rem; font-size: 0.82rem; color: var(--muted); }
+    footer a { color: var(--teal-dark); text-decoration: none; } footer a:hover { text-decoration: underline; }
+    footer .sep { margin: 0 0.5rem; opacity: 0.4; }
+    @media (max-width: 560px) { header { padding: 2.25rem 1rem 2rem; } .container { padding: 1.75rem 0.85rem 3.5rem; } section { padding: 1.25rem 1.1rem; } .toc { padding: 1.1rem 1.2rem; } }
+  </style>
+</head>
+<body>
+<header>
+  <a class="header-logo" href="../"><span class="logo-pill">KinRx</span></a>
+  <h1>Terms of Service</h1>
+  <span class="badge-updated">Effective: March 2026</span>
+</header>
+<main class="container" role="main">
+  <nav class="toc" aria-label="Table of contents">
+    <p class="toc-label">Contents</p>
+    <ol>
+      <li><a href="#acceptance">Acceptance of Terms</a></li>
+      <li><a href="#description">Description of Service</a></li>
+      <li><a href="#not-medical-device">Not a Medical Device</a></li>
+      <li><a href="#user-responsibilities">User Responsibilities</a></li>
+      <li><a href="#changes">Changes to the Service</a></li>
+      <li><a href="#disclaimer">Disclaimer of Warranties</a></li>
+      <li><a href="#liability">Limitation of Liability</a></li>
+      <li><a href="#governing-law">Governing Law</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+  <section id="acceptance">
+    <h2>1. Acceptance of Terms</h2>
+    <p>By downloading, installing, or using the KinRx mobile application ("the App"), you agree to be bound by these Terms of Service. If you do not agree, do not use the App.</p>
+    <p>These Terms apply to all users, including those who view shared medication lists via a link or QR code without creating an account.</p>
+    <p>We may update these Terms from time to time. Continued use after changes are posted constitutes acceptance. Material changes will be communicated through an in-app notice or email at least 14 days before taking effect.</p>
+  </section>
+  <section id="description">
+    <h2>2. Description of Service</h2>
+    <p>KinRx is a personal medication list management application. It allows users to:</p>
+    <ul>
+      <li>Create and maintain medication lists for themselves and family members</li>
+      <li>Record medication names, doses, schedules, prescribers, and related notes</li>
+      <li>Share medication lists with caregivers or healthcare providers via QR code or shareable link</li>
+      <li>Grant and revoke caregiver access to patient profiles</li>
+    </ul>
+    <p>KinRx is intended for <strong>personal, non-commercial use only</strong>. It is not designed for use by healthcare organizations handling Protected Health Information (PHI) under HIPAA.</p>
+  </section>
+  <section id="not-medical-device">
+    <h2>3. Not a Medical Device</h2>
+    <div class="callout callout-warn">
+      <span class="callout-label">Important Medical Disclaimer</span>
+      KinRx is a personal organizational tool. It is <strong>not a medical device</strong>, is <strong>not FDA approved or cleared</strong>, and is <strong>not a substitute for professional medical advice, diagnosis, or treatment</strong>.
+    </div>
+    <p>KinRx does not provide drug interaction checking, dosing guidance, or clinical decision support. The App does not verify the accuracy or clinical appropriateness of any information entered by users.</p>
+    <p>Always consult a qualified healthcare professional regarding any questions about your medications or medical condition. In a medical emergency, call 911 immediately.</p>
+  </section>
+  <section id="user-responsibilities">
+    <h2>4. User Responsibilities</h2>
+    <h3>Accuracy of Information</h3>
+    <p>You are solely responsible for the accuracy of all information you enter, including medication names, doses, schedules, and patient information. KinRx displays only what you enter.</p>
+    <h3>Account Security</h3>
+    <p>You are responsible for maintaining the confidentiality of your account credentials. Notify us immediately at <a href="mailto:max.weiner4@gmail.com">max.weiner4@gmail.com</a> if you suspect unauthorized access.</p>
+    <h3>Sharing</h3>
+    <p>When you generate a shareable link or QR code, you are responsible for who receives it. You can revoke access at any time within the App.</p>
+    <h3>Prohibited Use</h3>
+    <p>You agree not to use KinRx to store or transmit unlawful information, gain unauthorized access to other accounts, impair the service, or use it for commercial purposes without written permission.</p>
+  </section>
+  <section id="changes">
+    <h2>5. Changes and Discontinuation of Service</h2>
+    <p>KinRx is provided by an individual developer and is offered as-is. We reserve the right to modify, suspend, or discontinue the Service at any time. If the Service is discontinued, we will make reasonable efforts to provide advance notice so you can export your data.</p>
+  </section>
+  <section id="disclaimer">
+    <h2>6. Disclaimer of Warranties</h2>
+    <div class="callout callout-info">
+      <span class="callout-label">No Warranty</span>
+      KinRx is provided "as is" and "as available" without warranty of any kind.
+    </div>
+    <p>To the fullest extent permitted by applicable law, KinRx and its developer disclaim all warranties, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement. We do not warrant that the App will be uninterrupted, error-free, or that any content will be accurate or reliable.</p>
+  </section>
+  <section id="liability">
+    <h2>7. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law, KinRx and its developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the App, including any medical decisions made based on information in the App, loss of data, unauthorized account access, or harm arising from shared links.</p>
+    <p>In no event shall total liability exceed the amount you paid, if any, to use the App in the twelve months preceding the claim.</p>
+  </section>
+  <section id="governing-law">
+    <h2>8. Governing Law</h2>
+    <p>These Terms are governed by the laws of the Commonwealth of <strong>Pennsylvania, United States of America</strong>. Any dispute shall be resolved exclusively in the state or federal courts of Pennsylvania.</p>
+  </section>
+  <section id="contact">
+    <h2>9. Contact</h2>
+    <p><strong>Max Weiner</strong><br />Developer, KinRx<br />Email: <a href="mailto:max.weiner4@gmail.com">max.weiner4@gmail.com</a></p>
+    <div class="callout callout-teal">
+      <span class="callout-label">Privacy Policy</span>
+      For information about how we collect and use your data, please review our <a href="../privacy/">Privacy Policy</a>.
+    </div>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2026 KinRx &mdash; Max Weiner<span class="sep">|</span><a href="mailto:max.weiner4@gmail.com">max.weiner4@gmail.com</a><span class="sep">|</span><a href="../">Home</a><span class="sep">|</span><a href="../privacy/">Privacy Policy</a></p>
+  <p style="margin-top:0.4rem;">Effective date: March 2026</p>
+</footer>
+</body>
+</html>
